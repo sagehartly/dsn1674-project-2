@@ -7,5 +7,53 @@ html {
 }
 
 body {
-  font-family: "Noto Sans"
+  font-family: "Noto Sans";
+  font-size: 12px;
+}
+
+.banner {
+  width: 100%;
+  position: relative;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: white;
+  font-style: italic;
+  position: absolute;
+  left: 0;
+  bottom: 0.5em;
+  text-align: center;
+  width: 100%;
+}
+
+h2 {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.h2-white {
+  color: white;
+}
+
+.dragon {
+  background-color: #e4c22a;
+}
+
+.goat {
+  background-color: black;
+}
+
+.rooster {
+  background-color: #bc0017;
+}
+
+.ox {
+  background-color: #e4c22a;
+}
+
+footer {
+  background-color: black;
 }
