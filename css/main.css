@@ -9,12 +9,43 @@ html {
 body {
   font-family: "Noto Sans";
   font-size: 12px;
+  margin: 0;
+}
+
+header {
+  background-color: #e7001d;
+}
+
+.symbol-heading {
+  color: white;
+  font-size: 15px;
+}
+
+.zodiac {
+  font-size: 7px;
+  color: white;
+  position: absolute;
+}
+
+.medallion {
+  width: 40px;
+  margin: auto;
+
+}
+
+nav {
+  background-color: #222222;
+  color: white;
 }
 
 .banner {
   width: 100%;
   position: relative;
   padding: 0;
+}
+
+.intro {
+  padding: 0 1em 0 1em;
 }
 
 h1 {
@@ -31,7 +62,7 @@ h1 {
 h2 {
   font-size: 16px;
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
   margin: 0;
 }
 
@@ -48,18 +79,27 @@ h2 {
 
 .goat {
   background-color: black;
+  margin: 0;
+  padding: 1em;
+  position: relative;
 }
 
 .rooster {
   background-color: #bc0017;
+  margin: 0;
+  padding: 1em;
+  position: relative;
 }
 
 .ox {
   background-color: #e4c22a;
+  margin: 0;
+  padding: 1em;
+  position: relative;
 }
 
 .image-right {
-  width: 50%;
+  width: 45%;
   float: right;
   padding: 0 4em 0 0;
 }
@@ -71,7 +111,7 @@ h2 {
 }
 
 .image-left {
-  width: 50%;
+  width: 45%;
   float: left;
   padding: 0 0 0 4em;
 }
@@ -89,6 +129,16 @@ h3 {
   clear: both;
 }
 
-footer {
+.h3-white {
+  color: white;
+}
+
+.footer {
   background-color: black;
+  margin: 0;
+  padding: 1em;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 9px;
 }
