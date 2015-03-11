@@ -32,6 +32,7 @@ h2 {
   font-size: 16px;
   text-align: center;
   font-weight: bold;
+  margin: 0;
 }
 
 .h2-white {
@@ -42,6 +43,7 @@ h2 {
   background-color: #e4c22a;
   margin: 0;
   padding: 1em;
+  position: relative;
 }
 
 .goat {
@@ -54,6 +56,37 @@ h2 {
 
 .ox {
   background-color: #e4c22a;
+}
+
+.image-right {
+  width: 50%;
+  float: right;
+  padding: 0 4em 0 0;
+}
+
+.symbol-left {
+  width: 50%;
+  float: left;
+  padding: 0 0 0 4em;
+}
+
+.image-left {
+  width: 50%;
+  float: left;
+  padding: 0 0 0 4em;
+}
+
+.symbol-right {
+  width: 50%;
+  float: right;
+  padding: 0 4em 0 0;
+}
+
+h3 {
+  font-size: 9px;
+  font-style: italic;
+  text-align: center;
+  clear: both;
 }
 
 footer {
