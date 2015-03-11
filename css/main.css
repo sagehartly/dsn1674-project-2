@@ -14,7 +14,7 @@ body {
 .banner {
   width: 100%;
   position: relative;
-  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -40,6 +40,8 @@ h2 {
 
 .dragon {
   background-color: #e4c22a;
+  margin: 0;
+  padding: 1em;
 }
 
 .goat {
