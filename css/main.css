@@ -14,24 +14,32 @@ body {
 
 header {
   background-color: #e7001d;
+  position: relative;
+  padding: 0.75em 0;
+  text-align: center;
 }
 
 .symbol-heading {
   color: white;
-  font-size: 15px;
+  font-size: 30px;
   padding: 0;
+  position: absolute;
+  bottom: 2px;
+  width: 100%;
 }
 
 .zodiac {
-  font-size: 7px;
+  font-size: 9px;
   color: white;
   position: absolute;
-  top: 20px;
+  top: 37px;
+  position: absolute;
+  width: 100%;
 }
 
 .medallion {
-  width: 50px;
-  margin: 0 auto;
+  width: 60px;
+
 }
 
 nav {
