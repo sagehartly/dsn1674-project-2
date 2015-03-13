@@ -26,6 +26,7 @@ header {
   position: absolute;
   bottom: 2px;
   width: 100%;
+  text-shadow: 2px 2px 1px rgba(0,0,0,1);
 }
 
 .zodiac {
@@ -35,20 +36,30 @@ header {
   top: 37px;
   position: absolute;
   width: 100%;
+  text-shadow: 2px 2px 1px rgba(0,0,0,1);
 }
 
 .medallion {
   width: 60px;
-
 }
 
 nav {
   color: white;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+}
+
 ul {
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 li {
@@ -87,6 +98,7 @@ h1 {
   bottom: 0.5em;
   text-align: center;
   width: 100%;
+  text-shadow: 2px 2px 1px rgba(0,0,0,1);
 }
 
 h2 {
