@@ -140,25 +140,25 @@ h2 {
 .image-right {
   width: 45%;
   float: right;
-  padding: 0 4em 0 0;
+  padding: 0 4em 1em 0;
 }
 
 .symbol-left {
-  width: 50%;
+  width: 45%;
   float: left;
-  padding: 0 0 0 4em;
+  padding: 0 0 1em 4em;
 }
 
 .image-left {
   width: 45%;
   float: left;
-  padding: 0 0 0 4em;
+  padding: 0 0 1em 4em;
 }
 
 .symbol-right {
-  width: 50%;
+  width: 45%;
   float: right;
-  padding: 0 4em 0 0;
+  padding: 0 4em 1em 0;
 }
 
 h3 {
@@ -166,6 +166,7 @@ h3 {
   font-style: italic;
   text-align: center;
   clear: both;
+  font-weight: 400;
 }
 
 .h3-white {
@@ -175,9 +176,9 @@ h3 {
 .footer {
   background-color: black;
   margin: 0;
-  padding: 1em;
+  padding: 2em;
   color: white;
   text-align: center;
   text-decoration: underline;
-  font-size: 9px;
+  font-size: 8px;
 }
