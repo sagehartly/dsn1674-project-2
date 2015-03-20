@@ -1,3 +1,4 @@
+
 html {
   box-sizing: border-box;
 }
@@ -35,14 +36,14 @@ header {
   color: white;
   position: absolute;
   font-weight: 700;
-  top: 37px;
+  top: 45px;
   position: absolute;
   width: 100%;
   text-shadow: 2px 2px 1px rgba(0,0,0,0.5);
 }
 
 .medallion {
-  width: 55px;
+  width: 65px;
 }
 
 a {
@@ -102,10 +103,11 @@ h1 {
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   font-weight: 700;
   margin: 0;
+  padding: 1em 0 0 0;
 }
 
 .h2-white {
